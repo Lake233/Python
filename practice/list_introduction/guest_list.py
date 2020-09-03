@@ -21,6 +21,7 @@ print("Sorry " + guestList.pop().title() + ", I can't invite you.")
 print("Sorry " + guestList.pop().title() + ", I can't invite you.")
 print(guestList[0].title() + ", you are invited by me.")
 print(guestList[1].title() + ", you are invited by me.")
+print("I have invited " + str(len(guestList)) + " guys to have dinner")
 del guestList[0]
 del guestList[0]
 print(guestList)
