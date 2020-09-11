@@ -1,4 +1,4 @@
-numbers=[value for value in range(1,11)]
+numbers=list(range(1,11))
 print("The first three items in the list are: ")
 for number in numbers[:3]:
     print(number)

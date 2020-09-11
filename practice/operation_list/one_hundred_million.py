@@ -2,7 +2,7 @@
 for number in range(1,21):
     print(number)
 #打印一百万
-values = [value for value in range(1,10**6 + 1)]
+values = list(range(1,10**6 + 1))
 for value in values:
     print(value)
 #确定最大最小和求和
