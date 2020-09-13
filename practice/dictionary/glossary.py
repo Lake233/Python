@@ -6,8 +6,5 @@ dictionay = {
     "feature" : "a typical quality or an important part of something"
     }
 
-print("concern: " + dictionay["concern"])
-print("find: " + dictionay["find"])
-print("access: " + dictionay["access"])
-print("crude: " + dictionay["crude"])
-print("feature: " + dictionay["feature"])
+for name,value in dictionay.items():
+    print(name + ": " + value)
